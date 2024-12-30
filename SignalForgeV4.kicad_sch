@@ -1395,6 +1395,265 @@
 				)
 			)
 		)
+		(symbol "DM-OLED096-636:DM-OLED096-636"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DM-OLED096-636"
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DM-OLED096-636:MODULE_DM-OLED096-636"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Display Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2018-09-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "DM-OLED096-636"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Displaymodule"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DM-OLED096-636_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "VCC_IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3535,16 +3794,16 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -1.27 2.54 0)
+			(property "Value" "USB_CHARGER_BOOST"
+				(at 1.016 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
+			(property "Footprint" "USB_Charger_Buck_Boost:USB_Charger_Buck_Boost"
+				(at 0.508 -11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4597,6 +4856,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 72.39) (xy 64.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4314d87f-b904-44ee-bcf6-dfac7b446793")
+	)
+	(wire
+		(pts
 			(xy 106.68 48.26) (xy 113.03 48.26)
 		)
 		(stroke
@@ -4967,6 +5236,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 74.93) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfa740a-a24c-48f7-af37-bf01da4e714f")
+	)
+	(wire
+		(pts
 			(xy 97.79 167.64) (xy 107.95 167.64)
 		)
 		(stroke
@@ -5294,6 +5573,18 @@
 		(uuid 498fa38a-8471-464e-b3a8-4ec0636caf06)
 	)
 	(rectangle
+		(start 22.86 55.88)
+		(end 78.74 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f93ec5e-6c68-4119-baec-3ad310d141c1)
+	)
+	(rectangle
 		(start 128.905 36.195)
 		(end 173.99 94.615)
 		(stroke
@@ -5338,6 +5629,16 @@
 			)
 		)
 		(uuid "414e6f67-5e62-4d00-b5e0-980340bbb6ac")
+	)
+	(text "**Note: VCC-GND Changed in Real Device"
+		(exclude_from_sim no)
+		(at 48.768 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "741ff32d-9730-4cda-958b-eb7dea975aae")
 	)
 	(text "MICRO_SD\n"
 		(exclude_from_sim no)
@@ -5444,7 +5745,7 @@
 		(uuid "0f113528-951e-468a-b305-e517be665d1b")
 	)
 	(label "C_BTN"
-		(at 97.79 157.48 0)
+		(at 97.79 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5453,6 +5754,17 @@
 			(justify left bottom)
 		)
 		(uuid "104f52cf-3637-49c4-9b3e-9c52e27d7c3b")
+	)
+	(label "SCL"
+		(at 60.96 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1457b813-0083-401c-94bf-af0de6c5238d")
 	)
 	(label "IR_OUT"
 		(at 148.59 157.48 0)
@@ -5521,7 +5833,7 @@
 		(uuid "3e50cf42-e0ce-4bd7-becc-76a4237d9891")
 	)
 	(label "D_BTN"
-		(at 97.79 149.86 0)
+		(at 97.79 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5718,7 +6030,7 @@
 		)
 		(uuid "935ed888-24a8-4caf-8d5a-2bcbb0d41a09")
 	)
-	(label "SDA"
+	(label "SCL"
 		(at 144.78 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5728,6 +6040,17 @@
 			(justify left bottom)
 		)
 		(uuid "9a84b5bb-89eb-4c4b-991d-151db098dcee")
+	)
+	(label "SDA"
+		(at 60.96 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eb403a3-0436-4356-b5cc-dd4d823499c6")
 	)
 	(label "HSPI_CLK"
 		(at 144.78 64.77 0)
@@ -5828,7 +6151,7 @@
 		)
 		(uuid "ee4d7912-34bd-4504-8db9-b53c465a1002")
 	)
-	(label "SCL"
+	(label "SDA"
 		(at 144.78 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6065,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -6346,7 +6669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 101.6 66.04 0)
 			(effects
 				(font
@@ -7040,7 +7363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 201.93 124.46 0)
 			(effects
 				(font
@@ -7218,6 +7541,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 59.69 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fc4e24c-d0f1-495b-a5ba-8994121b333f")
+		(property "Reference" "#PWR039"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.754 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b4e7cdd-93dc-47fe-8b7d-db1fe1aa9c28")
+		)
+		(instances
+			(project "SignalForgeV4"
+				(path "/9c231a71-a353-4c90-82a4-bce00118f3a3"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Network04_US")
 		(at 191.77 59.69 0)
 		(unit 1)
@@ -7244,7 +7632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 198.755 59.69 90)
 			(effects
 				(font
@@ -7389,7 +7777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -7915,7 +8303,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 77.47 270)
+		(at 144.78 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7924,7 +8312,7 @@
 		(fields_autoplaced yes)
 		(uuid "746f1d74-223d-44ad-bcc3-eee647d9c50e")
 		(property "Reference" "#PWR023"
-			(at 138.43 77.47 0)
+			(at 138.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +8321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 77.4699 90)
+			(at 140.97 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 77.47 0)
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +8339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 77.47 0)
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +8348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 77.47 0)
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -8343,7 +8731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 262.89 139.7 0)
 			(effects
 				(font
@@ -8483,6 +8871,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 59.69 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cfc2fe6-404b-4cda-9471-67012f910d13")
+		(property "Reference" "#PWR040"
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a11b291b-59cc-4e9f-a8de-32f7725cb3be")
+		)
+		(instances
+			(project "SignalForgeV4"
+				(path "/9c231a71-a353-4c90-82a4-bce00118f3a3"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 52.07 161.29 90)
 		(unit 1)
@@ -8551,7 +9006,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 144.78 74.93 90)
+		(at 144.78 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8560,7 +9015,7 @@
 		(fields_autoplaced yes)
 		(uuid "92c6a462-c51f-43d3-9ff8-850edc6c0983")
 		(property "Reference" "#PWR022"
-			(at 148.59 74.93 0)
+			(at 148.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +9024,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 140.97 74.9299 90)
+			(at 140.97 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +9033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 74.93 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +9042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 74.93 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +9051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 74.93 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +9099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 201.93 130.81 90)
 			(effects
 				(font
@@ -8845,7 +9300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 41.91 105.41 0)
 			(effects
 				(font
@@ -8978,7 +9433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 110.49 0)
 			(effects
 				(font
@@ -9015,6 +9470,201 @@
 			(project ""
 				(path "/9c231a71-a353-4c90-82a4-bce00118f3a3"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DM-OLED096-636:DM-OLED096-636")
+		(at 46.99 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc303225-d53f-402d-bf33-abeb82be3b4c")
+		(property "Reference" "U3"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DM-OLED096-636"
+			(at 46.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DM-OLED096-636:MODULE_DM-OLED096-636"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Display Module"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2018-09-10"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DM-OLED096-636"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C\n"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Displaymodule"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71ec0d83-f26b-4929-993d-e25dfe742650")
+		)
+		(pin "1"
+			(uuid "0c38cbef-bee5-4471-b56a-7c848ce19596")
+		)
+		(pin "4"
+			(uuid "cae23864-65c5-400c-b858-3dc1477db159")
+		)
+		(pin "3"
+			(uuid "8ff53933-67a6-40dc-857e-2cd03d736f70")
+		)
+		(instances
+			(project ""
+				(path "/9c231a71-a353-4c90-82a4-bce00118f3a3"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9899,7 +10549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 237.49 137.16 0)
 			(effects
 				(font
@@ -10038,7 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 101.6 58.42 0)
 			(effects
 				(font
@@ -10304,7 +10954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 101.6 73.66 0)
 			(effects
 				(font
